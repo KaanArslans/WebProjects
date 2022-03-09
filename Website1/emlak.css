@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  height: 80px;
+  margin-left: 40px;
+}
+ul li {
+  margin-top: 25px;
+  margin-right: 70px;
+
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+ul li.img {
+  vertical-align: top;
+  margin-top: 5px;
+}
+div.header {
+  margin-top: 20px;
+}
+div.header h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+div.header h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #0b6325;
+}
+span {
+  color: #0b6325;
+}
+
+div.center {
+  background-color: #a9c8af;
+  height: 450px;
+  margin-top: 15px;
+  position: relative;
+}
+
+div.panel {
+  background-image: url(./images/header.jpg);
+  width: 800px;
+  height: 450px;
+  margin: 0 auto;
+  position: absolute;
+
+  left: 25%;
+  right: 25%;
+}
+
+div.welcome {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: absolute;
+
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.welcome h1 {
+  text-align: center;
+  font-size: 68px;
+  color: white;
+}
+div.welcome p {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: white;
+}
+
+div.welcome a {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid white;
+  margin-bottom: 30px;
+  width: 200px;
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 300px;
+  color: white;
+  background-color: black;
+  height: 40px;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  position: relative;
+}
+
+.leftcontainer {
+  left: 100px;
+  margin-top: 20px;
+  margin-left: 65px;
+  position: absolute;
+}
+
+.right {
+  right: 15px;
+  position: absolute;
+  width: 350px;
+  margin-top: 20px;
+  margin-right: 265px;
+  border-top: 2px solid black;
+}
+
+.leftcontainer p {
+  font-size: 30px;
+  border-top: 2px solid black;
+}
+
+.right p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.right img {
+  margin-right: 500px;
+}
